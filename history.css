@@ -1,0 +1,32 @@
+#architecture-banner .architecture-images img {
+    max-width: 100%; /* Максимальная ширина изображения по размеру родительского контейнера */
+    height: auto; /* Автоматическая высота, чтобы сохранить пропорции */
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: block; /* Добавлено для устранения лишних отступов */
+}
+
+#architecture-banner h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 0; /* Используйте 0 вместо 1px, чтобы убрать излишний отступ сверху */
+}
+
+#architecture-banner p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+#architecture-banner .architecture-content {
+    display: flex;
+    flex-wrap: wrap; /* Добавлено, чтобы управлять переносом элементов в случае нехватки места */
+}
+
+#architecture-banner .architecture-text {
+    flex: 1;
+    margin-right: 20px; /* Заменено padding-right на margin-right для более точного расстояния */
+}
+
+#architecture-banner .architecture-images {
+    flex-shrink: 0;
+}
